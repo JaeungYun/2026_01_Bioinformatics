@@ -1,0 +1,20 @@
+# Symlinked data files (large, kept outside repo in binfo1-datapack1/)
+filtered-*.bam
+fivepcounts-*.bed
+fivepcounts-*.txt
+gencode.gtf
+gencode.gtf.gz
+gencode-plusexon.gtf
+gencode-start.gtf
+gencode-stop.gtf
+gencode-exons-containing-*.bed
+read-counts.txt
+read-counts.txt.summary
+
+# NFS lock files
+.nfs*
+
+# Editor / tool dirs
+.claude/
+__pycache__/
+*.pyc
